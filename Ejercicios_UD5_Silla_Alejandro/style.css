@@ -1,0 +1,107 @@
+/* Reseteo de márgenes y padding para garantizar consistencia en todos los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas de formulario */
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Campos de selección múltiple */
+select[multiple] {
+    height: 150px;
+}
+
+/* Botón de enviar */
+input[type="submit"], input[type="button"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 20%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para los mensajes de error */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+    color: red;
+}
+
+/* Estilo para los checkboxes */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Contenedor de las opciones de nacionalidad y idiomas */
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+}
